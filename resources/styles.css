@@ -1,0 +1,107 @@
+.background {
+  background-color: black;
+}
+
+#screen-rect {
+  width: 90%;
+  height: 90%;
+  x: 0;
+  y: 0;
+  opacity: 0;
+}
+
+.clock-label {
+  text-anchor: end;
+  fill: brown;
+  font-size: 72;
+  font-family: "Colfax-Thin";
+  x: 95%;
+  y: 50%+40;
+  /* x: 10%; */
+  /* y: 40%; */
+}
+
+.full-date-label {
+  display: none;
+  text-anchor: start;
+  x: 5;
+  y: 40%;
+  font-size: 52;
+  font-family: "Colfax-Medium";
+  fill: goldenrod;
+  opacity: .9;
+}
+
+.day-name-label {
+  text-anchor: start;
+  x: 5;
+  y: 50%+40;
+  opacity: 1;
+  font-size: 72;
+  font-family: "Colfax-Medium";
+  fill: fb-slate-press;
+}
+
+.day-number-label {
+  display: none;
+  text-anchor: start;
+  x: 10;
+  y: 50%+80;
+  opacity: 1;
+  font-size: 42;
+  font-family: "Colfax-Medium";
+  fill: teal;
+}
+
+.weather-icon {
+  x: 50%;
+  y: 25%-32;
+  width: 42;
+  height: 42;
+  opacity: .9;
+}
+
+.weather-temperature-label {
+  text-anchor: end;
+  x: 85%;
+  y: 25%;
+  opacity: 1;
+  font-size: 30;
+  font-family: "Colfax-Medium";
+  fill: fb-slate-press;
+}
+
+.weather-map {
+  display: none;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+.street-map {
+  display: none;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+.hrm-label {
+  text-anchor: start;
+  x: 85%-30;
+  y: 85%;
+  fill: white;
+  font-size: 30;
+}
+
+.hrm-icon {
+  fill: darkred;
+  x: 85%-50;
+  y: 85%-18;
+  width: 20;
+  height: 20;
+}
+
+.line {
+  fill: grey;
+  stroke-width: 1;
+}
